@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2? family= Kdam+Thmor+Pro & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+   
+}
+header{
+    background-color:#FFDEAD;
+    height : 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav{
+    width: 60%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+li{
+    color: black;
+    font-size: 21px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.8s;
+    font-family:'Kdam Thmor Pro', sans-serif;
+}
+li:hover{
+    color: red;
+}
+#logo{
+    width: 90px;
+    height: auto;
+
+}
+body{
+    background-image:  url(../lasanha\ de\ fundo.jpg);
+    background-size: cover;
+    
+}
+p{
+    height: 90px;
+    width: 50%;
+    color: black;
+    font-size:50px;
+    font-weight: bolder;
+}
+label{
+    height: 200px;
+    font-size: 30px;
+}
+button{
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 21px;
+    font-weight: bolder;
+    transition: .8s;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 20px 120px;
+    align-items: center;
+}
+div{ 
+    height: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: bolder;
+    font-optical-sizing: 0;
+    
+}
+p1{height: 90px;
+    color: black;
+    font-size:50px;
+    font-weight: bolder;
+}
+.valor-total{
+    height: 50%;
+    width: 80px;
+    font-size: 31px;
+    display: inline;
+
+}
+.valor{
+    height: 40px;
+    font-size: large;
+}
+.cartaode{
+    background-color: black;
+    height: 400px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    justify-content: space-around;
+}
+span{
+
+    color: rgb(5, 0, 0);
+    font-family:'Kdam Thmor Pro', sans-serif;
+    font-weight: bold;
+}
+.footer-navigation{
+    display: none;
+}
+.footer-list{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+@media(max-width:768px){
+    .footer-navigation{
+        display: block;
+    }
+    nav{display: none;}
+    p{ 
+        width: 100%;
+        height: 30px;
+        font-size: 29px;
+        color:black;
+        background-color: white; 
+    }
+    form{
+        margin-top: 20px;
+        width: 80%;
+    }
+    button{
+        margin-left: 30%;
+    }
+  div{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  p1{
+    font-size: 45px;
+  }
+  footer{
+    width: 50%;
+    height: 150px;
+    position: relative;
+    top: 400px;
+    margin-left: 25%;
+    font-size: 20px;
+  }
+li{
+    font-size: 30px;
+}
+}

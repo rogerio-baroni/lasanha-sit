@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <header>
+        <img id="logo" src="../lasanha logo.jpg"/>
+        <nav>
+            <ul>
+                <a href="..//index.html">
+                    <li>HOME</li>
+                    </a>
+                <a href="../individual/individual.html">
+                    <li>INDIVIDUAL</li>
+                    </a>
+                <a href="../casal/casal.html">
+                    <li>CASAL</li>
+                    </a>
+                <a href="../combo/combo.html">
+                    <li>COMBO</li>
+                    </a>
+            </ul>
+        </nav>
+    </header>
+<p> ESCOLHA SUA LASANHA</p>
+<div> 
+    <form action="../pedidos/pedidos.html">
+        <label for="radio1">Lasanha  de  carne R$35.00</label>
+        <input id="radio1" type="checkbox" name="LASANHA" value="lasanha de carne"/><br>
+        <label for="radio2">Lasanha de frango R$32.00 </label>
+        <input id="radio2" type="checkbox" name="LASANHA" value="lasanha de frango"/><br>
+        <label for="radio3"> Lasanha de brocolis com bacom R$35.00</label>
+        <input id="radio3" type="checkbox" name="LASANHA" value="lasanha de brocolis com bacon"/><br>
+        <label for="radio4">Lasanha de brocolis R$30.00 </label>
+        <input id="radio4" type="checkbox" name="LASANHA" value="lasanha de brocolis"/><br>
+        <label for="radio5">Lasanha de molho branco R$28.00 </label>
+        <input id="radio5" type="checkbox" name="LASANHA" value="lasanha de molho branco"/><br>
+        
+        <div class="valor-total">valor total:
+            <input class="valor" type="number"> </div><br>
+            
+            <label for="PIX">PIX</label>
+            <input id="PIX" type="radio" name="pagamento" value="pix"/><br>
+            <label for="radio">DINHEIRO</label>
+            <input id="radio" type="radio" name="pagamento" value="dinheiro"/><BR>
+            <label for="cartao">CARTAO</label>
+            <input id="cartao" type="radio" name="pagamento" value="cartao"/>
+            
+        <button>fazer pedido</button>
+
+    </form>
+       <p1>cartao de credito</p>
+        <form action="cartao" id="cartao"> 
+            <input style="font-size: 25px;" placeholder="NOME" /><br>
+            <input style="font-size: 25px;" placeholder="NUMERO DO CARTAO"/><br> 
+            <input style="font-size: 25px;" placeholder="MES E ANO"/> <br>
+            <input style="font-size: 25px;" placeholder="CVC" /> <br>
+            <button>COMFIRMAR</button>
+        </form>
+    </div>
+    <script src="./index.js"></script>
+    <footer>
+        <img style="object-fit:  contain;" id="logo" src="../lasanha logo.jpg">
+        <span>contato para pedidos © </span>
+        <span>(14)997487788</span>
+        <span>FABRICADO POR CAMILA BARONI</span>
+        <nav class="footer-navigation">
+            <ul class="footer-list">
+            <a href="../index.html"> 
+                <li>home</li>
+                </a>
+            <a href="../individual/individual.html">
+                <li>individual</li>
+                </a>
+            <a href="../casal/casal.html">
+                <li>casal</li>
+                </a>
+            <a href="../combo/combo.html">
+                <li>combo</li>
+                </a>     
+            </ul> 
+              </nav>
+    </footer>
+</body>
+</html>
